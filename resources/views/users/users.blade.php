@@ -12,11 +12,9 @@
                         <p>{!! link_to_route('users.show', 'View profile', ['user' => $user->id]) !!}</p>
                     </div>
                 </div>
-            </li>
+            </li>   
         @endforeach
     </ul>
     {{ $users->links() }}
 @endif
-                </div>
-            </li>
-    </ul>
+   
